@@ -10,7 +10,7 @@ json_data=$(cat "$json_file")
 new_entries="[]"
 
 # Yeni dizileri ekle
-for ((id=3040; id>=2796; id--)); do
+for ((id=3218; id>=3041; id--)); do
   url="https://fatihdelice.github.io/api/wallsdrobe/w_${id}.webp"
   new_entries=$(echo "$new_entries" | jq --arg id "$id" --arg url "$url" '. += [{"id": $id, "url": $url, "name": "wallpaper"}]')
 done
