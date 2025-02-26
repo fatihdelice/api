@@ -1,6 +1,10 @@
 {
   "images": [
     {
+      "id": "90",
+      "url": "https://api.delice.dev/sivasspor/sw_90-min.webp"
+    },
+    {
       "id": "89",
       "url": "https://api.delice.dev/sivasspor/sw_89-min.webp"
     },
